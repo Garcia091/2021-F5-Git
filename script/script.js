@@ -7,7 +7,7 @@ const main = document.getElementById('main')
 showMovies(data)
 
 function showMovies(hero) {
-    main.innerHTML = ''
+    //main.innerHTML = ''
     hero.forEach((hero) => {
         
         const movieEl = document.createElement('div')
